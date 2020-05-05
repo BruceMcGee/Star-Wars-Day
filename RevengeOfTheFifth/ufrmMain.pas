@@ -19,7 +19,6 @@ type
     FloatAnimation1: TFloatAnimation;
     lblTitle: TLabel;
     Model3D1Mat02: TLightMaterialSource;
-    procedure Viewport3D1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,10 +32,5 @@ implementation
 
 {$R *.fmx}
 
-
-procedure TfrmMain.Viewport3D1Click(Sender: TObject);
-begin
-  FloatAnimation1.Enabled := True;
-end;
 
 end.
